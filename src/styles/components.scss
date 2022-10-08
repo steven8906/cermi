@@ -1,0 +1,41 @@
+  .slider-news-featured {
+      .agile__slide {
+          height: 220px;
+      }
+      .agile__actions {
+          width: calc(100% - 450px);
+          position: absolute;
+          right: 0;
+          padding: 0 40px;
+          bottom: 20px;
+          justify-content: flex-start;
+          .agile__nav-button--next {
+              background-color: transparent;
+              border: 0;
+              background-image: url('/img/icons/arrow-right.svg');
+              font-size: 0;
+              width: 30px;
+              height: 30px;
+              display: inline-block;
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: 28px;
+              cursor: pointer;
+              margin-left: 20px;
+          }
+          .agile__nav-button--prev {
+              background-color: transparent;
+              border: 0;
+              background-image: url('/img/icons/arrow-right.svg');
+              font-size: 0;
+              width: 30px;
+              height: 30px;
+              display: inline-block;
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: 28px;
+              cursor: pointer;
+              transform: rotate(180deg);
+          }
+      }
+  }

@@ -1,0 +1,46 @@
+@import "../styles/colours.scss";
+.input{
+  padding : 12px;
+  border  : solid 1px $blueLight;
+  width   : 100%;
+
+  &::placeholder{
+    color: $blueLight;
+  }
+
+}
+
+.input-icon{
+  position: relative;
+  //Sin btn
+  .icon{
+    position : absolute;
+    width    : 25px;
+    height   : 25px;
+    right    : 5px;
+    top      : 15%;
+
+    &.icon-search{
+      display    : block;
+      background : url("/public/icons/search.svg");
+      color      : #0069B4;
+    }
+  }
+  //Con btn
+  .btn{
+    position : absolute;
+    right    : 5px;
+    top      : 15%;
+    .icon{
+      position : relative;
+      width    : 25px;
+      height   : 25px;
+
+      &.icon-search{
+        display    : block;
+        background : url("/public/icons/search.svg");
+        color      : #0069B4;
+      }
+    }
+  }
+}
