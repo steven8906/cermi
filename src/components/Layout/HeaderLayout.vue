@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <section class="header-top d-flex justify-content-between align-items-start">
+    <section class="header-top d-flex justify-content-between align-items-start p-top-10-px">
       <div class="header-logo">
         <img class="w-17-rem h-8-rem  m-left-40-px m-top-20-px" src="/img/logo.svg" alt="">
       </div>
@@ -58,7 +58,6 @@ export default {
         list-style-type :none;
         li{
           display    : list-item;
-          color      :white;
         }
       }
     }

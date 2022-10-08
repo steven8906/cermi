@@ -24,6 +24,20 @@
     align-items         : start
 }
 
+//background-colors
+.background-primary{
+    background-color: $blue !important;
+}
+.background-primary-light{
+    background-color: $blueLight !important;
+}
+.background-black{
+    background-color: $black !important;
+}
+.background-orange{
+    background-color: $orange !important;
+}
+
 //colors
 .color-primary{
     color: $blue !important;
@@ -282,7 +296,7 @@
         padding-bottom: #{$i}px;
     }
     .p-bottom-#{$i}-rem{
-        padding-bottom: #{$i}rem;
+        padding-bottom: #{$i}rem !important;
     }
     .p-x-#{$i}{
         padding-left  : #{$i+'%'};
