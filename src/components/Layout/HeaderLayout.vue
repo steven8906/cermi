@@ -4,7 +4,7 @@
       <div class="header-logo">
         <img class="w-17-rem h-8-rem  m-left-40-px m-top-20-px" src="/img/logo.svg" alt="">
       </div>
-      <div class="d-flex justify-content-end align-items-center w-50">
+      <div class="d-flex align-items-center w-50">
         <div class="header-search m-right-20-px text-right">
           <div class="input-icon w-50">
             <button class="btn cursor-pointer"><i class="icon icon-search"></i></button>
