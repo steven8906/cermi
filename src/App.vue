@@ -1,10 +1,11 @@
 <template>
-  <header-layout/>
-  <menu-layout />
-  <main class="background-orange">
-    <h1>HOLAA</h1>
-    <router-view/>
-  </main>
+  <section class="content-main">
+    <header-layout/>
+    <menu-layout />
+    <main class="background-orange">
+      <router-view/>
+    </main>
+  </section>
 </template>
 
 <style lang="scss">
@@ -18,6 +19,19 @@
     }
 
   }
+
+
+@media screen and (max-width:1920px) {
+  .content-main{
+    padding: 0;
+  }
+}
+
+@media screen and (min-width:1921px) {
+  .content-main{
+    padding: 0 5rem;
+  }
+}
 </style>
 <script>
 import HeaderLayout from "@/components/Layout/HeaderLayout";

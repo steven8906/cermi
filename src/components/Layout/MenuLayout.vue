@@ -151,7 +151,7 @@
   </nav>
 </template>
 
-<script>
+<script lang="js">
 export default {
   name: "MenuLayout",
   data:()=>({
@@ -159,14 +159,16 @@ export default {
   }),
   mounted() {
     const contentMenus = document.querySelectorAll(".menu-item__link")
-    contentMenus.forEach(element=> {
+    contentMenus.forEach(element => {
       const menuItemToShowID = element?.dataset.menuItem
+
       if (menuItemToShowID !== undefined){
         const menuItemElement = document.getElementById(menuItemToShowID)
         element.addEventListener("mouseover", ()=> {
           menuItemElement.classList.add('z-index-2', 'opacity-100')
           menuItemElement.classList.remove('z-index-0', 'opacity-0')
         })
+
         menuItemElement.addEventListener("mouseleave", ()=> {
           menuItemElement.classList.remove('z-index-2', 'opacity-100')
           menuItemElement.classList.add('z-index-0', 'opacity-0')
