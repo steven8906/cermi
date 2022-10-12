@@ -33,9 +33,21 @@
     color      : #0069B4;
   }
 
+  &.icon-location{
+    display    : block;
+    background : url("/public/icons/location.svg");
+    color      : #0069B4;
+  }
+
   &.icon-youtube{
     display    : block;
     background : url("/public/icons/youtube.svg");
+    color      : #0069B4;
+  }
+
+  &.icon-tag{
+    display    : block;
+    background : url("/public/icons/tag.svg");
     color      : #0069B4;
   }
 }

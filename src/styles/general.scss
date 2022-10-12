@@ -58,6 +58,12 @@
 .background-orange{
     background-color: $orange !important;
 }
+.background-red{
+    background-color: $red !important;
+}
+.background-white{
+    background-color: $white !important;
+}
 
 //colors
 .color-primary{
@@ -77,6 +83,11 @@
 }
 .color-white-light{
     color: $whiteLight !important;
+}
+
+//container
+.container{
+    max-width: 1440px;
 }
 
 //cursor
@@ -100,6 +111,25 @@
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+}
+.d-flex-column{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+//fonts
+.font-family-frank-ruhl{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.font-family-roboto{
+    font-family: 'Roboto', serif;
+}
+.font-light{
+    font-weight: lighter;
 }
 
 //hr
@@ -128,6 +158,16 @@
 }
 .justify-content-end{
     justify-content: end;
+}
+
+.line{
+    /* Line 1 */
+    position: absolute;
+    /* azul */
+    border: 1px solid #0069B4;
+    transform: rotate(-180deg);
+    /* azul */
+    background: #0069B4;
 }
 
 //margin-auto
@@ -166,12 +206,26 @@
     position: relative;
 }
 
+//overflow
+.overflow-hidden{
+    overflow: hidden;
+}
+.overflow-y-auto{
+    overflow-y: auto;
+}
+.overflow-y-scroll{
+    overflow-y: scroll;
+}
+
 //text
 .text-bold{
     font-weight: bold;
 }
 .text-light{
     font-family:'Frank Ruhl Libre', serif;
+    font-weight: 300;
+}
+.text-light-global{
     font-weight: 300;
 }
 .text-center{
@@ -192,6 +246,15 @@
 .text-primary{
     color: $blue;
 }
+.text-primary-light{
+    color: $blueLight !important;
+}
+.text-orange{
+    color: $orange !important;
+}
+.text-white{
+    color: $white;
+}
 .text-decoration-none{
     text-decoration: none;
 }
@@ -201,6 +264,29 @@
     //border-radius
     .border-radius-#{$i}-px{
         border-radius: #{$i}px;
+    }
+    .border-radius-0-#{$i}-px{
+        border-radius: 0 #{$i}px;
+    }
+    .border-radius-#{$i}-0-px{
+        border-radius: #{$i}px 0;
+    }
+    .border-radius-#{$i}-#{$i}-0-0-px{
+        border-radius: #{$i}px #{$i}px 0 0;
+    }
+    .border-radius-0-0-#{$i}-#{$i}-px{
+        border-radius: 0 0 #{$i}px #{$i}px;
+    }
+    .border-radius-0-#{$i}-0-#{$i}-px{
+        border-radius: 0 #{$i}px 0 #{$i}px;
+    }
+    .border-radius-#{$i}-0-#{$i}-0-px{
+        border-radius: #{$i}px 0 #{$i}px 0;
+    }
+
+    //bottom
+    .bottom-#{$i}{
+        bottom:#{$i + '%'};
     }
 
     //fonts
@@ -296,6 +382,11 @@
         margin-bottom : #{$i}rem;
     }
 
+    //left
+    .left-#{$i}{
+        left:#{$i + '%'};
+    }
+
     //paddings
     .p-#{$i}{
         padding: #{$i+'%'};
@@ -373,6 +464,16 @@
         transition: 0.2s;
     }
 
+    //right
+    .right-#{$i}{
+        right:#{$i + '%'};
+    }
+
+    //top
+    .top-#{$i}{
+        top:#{$i + '%'};
+    }
+
     //widths
     .w-#{$i}{
         width: #{$i+'%'} !important;
@@ -392,7 +493,6 @@
         z-index: #{$i};
     }
 }
-
 
 /**
  * Estilos prestados del otro cermi

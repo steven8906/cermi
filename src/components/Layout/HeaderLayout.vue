@@ -1,8 +1,8 @@
 <template>
   <header class="header">
-    <section class="header-top d-flex justify-content-between align-items-start p-top-10-px">
+    <section class="container header-top d-flex justify-content-between align-items-start p-top-10-px">
       <div class="header-logo">
-        <img class="w-17-rem h-8-rem  m-left-40-px m-top-20-px" src="/img/logo.svg" alt="">
+        <img class="w-17-rem h-8-rem m-left-40-px m-top-20-px" src="/img/logo.svg" alt="">
       </div>
       <div class="d-flex align-items-center w-50">
         <div class="header-search m-right-20-px text-right">

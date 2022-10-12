@@ -1,8 +1,8 @@
 <template>
-  <section class="content-main">
+  <section>
     <header-layout/>
     <menu-layout />
-    <main class="background-orange">
+    <main class="container">
       <router-view/>
     </main>
   </section>
@@ -13,24 +13,11 @@
   body{
     padding : 0;
     margin  : 0;
+    overflow-x: hidden;
 
     main{
       position: relative;
     }
-
-  }
-
-
-@media screen and (max-width:1920px) {
-  .content-main{
-    padding: 0;
-  }
-}
-
-@media screen and (min-width:1921px) {
-  .content-main{
-    padding: 0 5rem;
-  }
 }
 </style>
 <script>

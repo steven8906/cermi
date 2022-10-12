@@ -1,23 +1,23 @@
 <template>
   <nav class="position-relative">
-    <div class="p-right-12-rem">
+    <div class="p-right-8-rem container">
       <ul class="menu-list d-block text-right">
-        <li class="menu-item m-x-35-px font-size-21 p-0-px">
+        <li class="menu-item m-x-30-px font-size-21 p-0-px">
           <a class="menu-item__link d-block p-bottom-1-rem" href="#">Inicio</a>
         </li>
-        <li class="menu-item m-x-35-px font-size-21 p-0-px">
+        <li class="menu-item m-x-30-px font-size-21 p-0-px">
           <a class="menu-item__link menu-item-active d-block p-bottom-1-rem" data-menu-item="content-menu-2" href="#">CERMI</a>
         </li>
-        <li class="menu-item m-x-35-px font-size-21 p-0-px">
+        <li class="menu-item m-x-30-px font-size-21 p-0-px">
           <a class="menu-item__link d-block p-bottom-1-rem" href="#">Actualidad</a>
         </li>
-        <li class="menu-item m-x-35-px font-size-21 p-0-px">
+        <li class="menu-item m-x-30-px font-size-21 p-0-px">
           <a class="menu-item__link d-block p-bottom-1-rem" href="#">Defensa Legal</a>
         </li>
-        <li class="menu-item m-x-35-px font-size-21 p-0-px">
+        <li class="menu-item m-x-30-px font-size-21 p-0-px">
           <a class="menu-item__link d-block p-bottom-1-rem" href="#">Colecciones</a>
         </li>
-        <li class="menu-item m-x-35-px font-size-21 p-0-px">
+        <li class="menu-item m-x-30-px font-size-21 p-0-px">
           <a class="menu-item__link d-block p-bottom-1-rem" href="#">Transparencia</a>
         </li>
       </ul>
