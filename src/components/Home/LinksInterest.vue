@@ -7,19 +7,19 @@
       <span class="dot__line m-left-16"></span>
       <div class="d-flex justify-content-between w-80 m-top-22-rem">
         <ul class="list-style-none">
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">Condecoraciones y premios</li>
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">Colaborción Asociativa</li>
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">Servicio Asistencia PMR</li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Condecoraciones y premios</a></li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Colaborción Asociativa</a></li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Servicio Asistencia PMR</a></li>
         </ul>
         <ul class="list-style-none">
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">CERMIs Autonómicos</li>
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">Maternidad informada</li>
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">#SOSDiscapacidad</li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">CERMIs Autonómicos</a></li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Maternidad informada</a></li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">#SOSDiscapacidad</a></li>
         </ul>
         <ul class="list-style-none">
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">Nuestro Himno</li>
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">Nuestro Vídeo Corporativo</li>
-          <li class="font-family-frank-ruhl text-light text-primary font-size-21">Memorias Anuales</li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Nuestro Himno</a></li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Nuestro Vídeo Corporativo</a></li>
+          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Memorias Anuales</a></li>
         </ul>
       </div>
       <br/>
