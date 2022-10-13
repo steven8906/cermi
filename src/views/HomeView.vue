@@ -4,6 +4,10 @@
     <strap-home />
     <present-home />
     <expo-room />
+    <br/>
+    <br/>
+    <br/>
+    <links-interest/>
   </main>
 </template>
 
@@ -12,9 +16,10 @@ import CarrouselHome from "@/components/Home/CarrouselHome";
 import StrapHome from "@/components/Home/StrapHome";
 import PresentHome from "@/components/Home/PresentHome";
 import ExpoRoom from "@/components/Home/ExpoRoom";
+import LinksInterest from "@/components/Home/LinksInterest";
 export default {
   name: "HomeView",
-  components: {ExpoRoom, StrapHome, CarrouselHome, PresentHome}
+  components: {LinksInterest, ExpoRoom, StrapHome, CarrouselHome, PresentHome}
 }
 </script>
 
