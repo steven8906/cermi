@@ -2,52 +2,54 @@
   background-position   : center !important;
   background-size       : contain !important;
   background-repeat     : no-repeat !important;
-
+  display               : inline-block;
   &.icon-facebook{
-    display    : block;
     background : url("/public/icons/facebook.svg");
     color      : #0069B4;
   }
 
-  &.icon-search{
-    display    : block;
-    background : url("/public/icons/search.svg");
+  &.icon-calendar{
+    background : url("/public/icons/calendar.svg");
     color      : #0069B4;
   }
 
-  &.icon-twitter{
-    display    : block;
-    background : url("/public/icons/twitter.svg");
+  &.icon-clock{
+    background : url("/public/icons/clock.svg");
     color      : #0069B4;
   }
 
   &.icon-instagram{
-    display    : block;
     background : url("/public/icons/instagram.svg");
     color      : #0069B4;
   }
 
   &.icon-linkedin{
-    display    : block;
     background : url("/public/icons/linkedin.svg");
     color      : #0069B4;
   }
 
   &.icon-location{
-    display    : block;
     background : url("/public/icons/location.svg");
     color      : #0069B4;
   }
 
-  &.icon-youtube{
-    display    : block;
-    background : url("/public/icons/youtube.svg");
+  &.icon-tag{
+    background : url("/public/icons/tag.svg");
     color      : #0069B4;
   }
 
-  &.icon-tag{
-    display    : block;
-    background : url("/public/icons/tag.svg");
+  &.icon-twitter{
+    background : url("/public/icons/twitter.svg");
+    color      : #0069B4;
+  }
+
+  &.icon-search{
+    background : url("/public/icons/search.svg");
+    color      : #0069B4;
+  }
+
+  &.icon-youtube{
+    background : url("/public/icons/youtube.svg");
     color      : #0069B4;
   }
 }
