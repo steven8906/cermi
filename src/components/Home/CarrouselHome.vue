@@ -5,7 +5,7 @@
         <section class="w-44">
           <div class="position-relative p-y-10-px">
             <h2 class="text-primary font-size-40">El Valor de la Unidad</h2>
-            <span class="line w-92-px right-28 bottom-0"></span>
+            <span class="underline w-100 m-left-5-rem"></span>
           </div>
           <br/>
           <br/>
@@ -37,7 +37,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  @import "../../styles/general";
 
   .container-carrousel{
     height: 468px;

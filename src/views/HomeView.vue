@@ -23,6 +23,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+ @import "../styles/icons";
+ @import "../styles/form";
+ @import "../styles/general";
 </style>

@@ -17,8 +17,8 @@
     position : absolute;
     width    : 25px;
     height   : 25px;
-    right    : 5px;
-    top      : 15%;
+    right    : 0;
+    top      : 5%;
 
     &.icon-search{
       display    : block;
@@ -29,8 +29,8 @@
   //Con btn
   .btn{
     position : absolute;
-    right    : 5px;
-    top      : 15%;
+    right    : 0;
+    top      : 5%;
     cursor: pointer !important;
     .icon{
       position : relative;
