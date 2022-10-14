@@ -1,31 +1,32 @@
 <template>
 <main class="position-relative d-block">
-  <section class="p-y-2-rem p-x-3-rem">
-    <div class="p-y-1-rem p-x-2-rem section__links-interest h-43-rem ">
+  <div class="p-x-3-rem">
+    <div class="p-bottom-2-rem p-x-2-rem section__links-interest">
       <h2 class="font-family-frank-ruhl text-primary-light opacity-50 text-bold font-size-8-rem w-100">Enlaces de interés</h2>
-      <h2 class="font-family-frank-ruhl text-bold text-primary font-size-24">Otros enlaces de interés</h2>
-      <span class="dot__line m-left-16"></span>
-      <div class="d-flex justify-content-between w-80 m-top-22-rem">
-        <ul class="list-style-none">
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Condecoraciones y premios</a></li>
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Colaborción Asociativa</a></li>
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Servicio Asistencia PMR</a></li>
-        </ul>
-        <ul class="list-style-none">
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">CERMIs Autonómicos</a></li>
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Maternidad informada</a></li>
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">#SOSDiscapacidad</a></li>
-        </ul>
-        <ul class="list-style-none">
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Nuestro Himno</a></li>
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Nuestro Vídeo Corporativo</a></li>
-          <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Memorias Anuales</a></li>
-        </ul>
+      <div class="m-top-22-rem">
+        <h2 class="font-family-frank-ruhl text-bold text-primary font-size-24">Otros enlaces de interés</h2>
+        <span class="dot__line m-left-16"></span>
+        <div class="d-flex justify-content-between w-80 m-top-1-rem">
+          <ul class="list-style-none">
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Condecoraciones y premios</a></li>
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Colaborción Asociativa</a></li>
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Servicio Asistencia PMR</a></li>
+          </ul>
+          <ul class="list-style-none">
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">CERMIs Autonómicos</a></li>
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Maternidad informada</a></li>
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">#SOSDiscapacidad</a></li>
+          </ul>
+          <ul class="list-style-none">
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Nuestro Himno</a></li>
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Nuestro Vídeo Corporativo</a></li>
+            <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Memorias Anuales</a></li>
+          </ul>
+        </div>
       </div>
-      <br/>
     </div>
-  </section>
-  <section class="font-family-frank-ruhl text-white w-100 d-block position-absolute top-20">
+  </div>
+  <div class="font-family-frank-ruhl text-white w-100 d-block position-absolute top-13">
     <div class="d-flex justify-content-between w-100">
       <ul class="strap list-style-none d-flex justify-content-between w-100">
         <li class="strap__item w-25 background-primary-light">
@@ -70,7 +71,7 @@
         </li>
       </ul>
     </div>
-  </section>
+  </div>
   <br/>
   <br/>
   <br/>
