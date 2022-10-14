@@ -35,7 +35,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../../styles/colours.scss";
 
 .strap{
   background-color: white;
