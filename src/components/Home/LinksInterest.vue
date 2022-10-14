@@ -5,7 +5,7 @@
       <h2 class="font-family-frank-ruhl text-primary-light opacity-50 text-bold font-size-8-rem w-100">Enlaces de interés</h2>
       <div class="m-top-22-rem">
         <h2 class="font-family-frank-ruhl text-bold text-primary font-size-24">Otros enlaces de interés</h2>
-        <span class="dot__line m-left-16"></span>
+        <span class="underline m-left-16"></span>
         <div class="d-flex justify-content-between w-80 m-top-1-rem">
           <ul class="list-style-none">
             <li><a class="text-decoration-none font-family-frank-ruhl text-light text-primary font-size-21" href="#">Condecoraciones y premios</a></li>
@@ -75,10 +75,6 @@
 </main>
 </template>
 
-
-
-
-
 <script>
 export default {
   name: "LinksInterest",
@@ -87,9 +83,9 @@ export default {
 
 <style scoped lang="scss">
   .section__links-interest{
-    background: #FFFFFF;
-    box-shadow: 0 4px 30px rgba(0, 105, 180, 0.3);
-    border-radius: 20px;
+    background    : #FFFFFF;
+    box-shadow    : 0 4px 30px rgba(0, 105, 180, 0.3);
+    border-radius : 20px;
   }
   .strap{
     .strap__item{
