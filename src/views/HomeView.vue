@@ -4,10 +4,7 @@
     <strap-home />
     <present-home />
     <expo-room />
-    <br/>
-    <br/>
-    <br/>
-    <links-interest/>
+    <links-interest class="p-top-3-rem"/>
   </main>
 </template>
 
