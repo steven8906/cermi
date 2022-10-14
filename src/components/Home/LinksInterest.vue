@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="font-family-frank-ruhl text-white w-100 d-block position-absolute top-20">
+  <div class="font-family-frank-ruhl text-white w-100 d-block position-absolute top-25">
     <div class="d-flex justify-content-between w-100">
       <ul class="strap list-style-none d-flex justify-content-between w-100">
         <li class="strap__item w-25 background-primary-light">

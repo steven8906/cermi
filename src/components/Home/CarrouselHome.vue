@@ -1,6 +1,6 @@
 <template>
   <main class="position-relative">
-    <div class="d-block w-100 container-carrousel p-y-2-rem">
+    <div class="d-block w-100 container-carrousel p-bottom-2-rem">
       <div class="background-carrousel d-flex w-100 p-72-px">
         <section class="w-44">
           <div class="position-relative p-y-10-px">

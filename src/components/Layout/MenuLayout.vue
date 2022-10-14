@@ -3,7 +3,7 @@
     <div class="p-right-8-rem container">
       <ul class="menu-list d-block text-right">
         <li class="menu-item m-x-30-px font-size-21 p-0-px">
-          <a class="menu-item__link d-block p-bottom-1-rem" href="#">Inicio</a>
+          <RouterLink class="menu-item__link d-block p-bottom-1-rem" to="/">Inicio</RouterLink>
         </li>
         <li class="menu-item m-x-30-px font-size-21 p-0-px">
           <a class="menu-item__link menu-item-active d-block p-bottom-1-rem" data-menu-item="content-menu-2" href="#">CERMI</a>
@@ -18,11 +18,11 @@
           <a class="menu-item__link d-block p-bottom-1-rem" href="#">Colecciones</a>
         </li>
         <li class="menu-item m-x-30-px font-size-21 p-0-px">
-          <a class="menu-item__link d-block p-bottom-1-rem" href="#">Transparencia</a>
+          <RouterLink class="menu-item__link d-block p-bottom-1-rem" to="/transparencia">Transparencia</RouterLink>
         </li>
       </ul>
     </div>
-    <div class="menu-content background-primary w-100-vw position-absolute z-index-0 opacity-0" id="content-menu-2">
+    <div class="menu-content background-primary w-100-vw d-none position-absolute" id="content-menu-2">
       <div class="menu-main d-flex position-relative">
         <div class="menu-left w-75 d-flex">
           <ul class="w-100 d-flex justify-content-between">
@@ -165,24 +165,17 @@ export default {
       if (menuItemToShowID !== undefined){
         const menuItemElement = document.getElementById(menuItemToShowID)
         element.addEventListener("mouseover", ()=> {
-          menuItemElement.classList.add('z-index-2', 'opacity-100')
-          menuItemElement.classList.remove('z-index-0', 'opacity-0')
+          menuItemElement.classList.add('z-index-2', 'd-block')
+          menuItemElement.classList.remove('z-index-0', 'd-none')
         })
 
         menuItemElement.addEventListener("mouseleave", ()=> {
-          menuItemElement.classList.remove('z-index-2', 'opacity-100')
-          menuItemElement.classList.add('z-index-0', 'opacity-0')
+          menuItemElement.classList.remove('z-index-2', 'd-block')
+          menuItemElement.classList.add('z-index-0', 'd-none')
         })
       }
     })
   },
-  methods:{
-    showContentMenu:(item)=>{
-      const contentMenu = document.getElementById(item)
-      contentMenu.classList.remove("opacity-0")
-      contentMenu.classList.add("opacity-100")
-    }
-  }
 }
 </script>
 

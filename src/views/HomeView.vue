@@ -1,10 +1,14 @@
 <template>
-  <main>
+  <main class="container">
     <carrousel-home />
     <strap-home />
     <present-home />
     <expo-room />
     <links-interest class="p-top-3-rem"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
   </main>
 </template>
 
@@ -24,4 +28,8 @@ export default {
  @import "../styles/icons";
  @import "../styles/form";
  @import "../styles/general";
+
+ main{
+   position: relative;
+ }
 </style>

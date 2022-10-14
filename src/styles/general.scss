@@ -105,6 +105,9 @@
 .background-blue-3{
     background-color: $blue-3 !important;
 }
+.background-blue-4{
+    background-color: $blue-4 !important;
+}
 .background-black{
     background-color: $black !important;
 }
@@ -296,16 +299,6 @@
     background : #0069B4;
 }
 
-.underline{
-    display             : inline-block;
-    width               : 92px;
-    background-image    : url(/public/img/line.svg);
-    background-repeat   : no-repeat;
-    background-position : center;
-    height              : 10px;
-    margin              : auto;
-}
-
 //margin-auto
 .margin-auto{
     margin: auto;
@@ -394,12 +387,37 @@
 .text-decoration-none{
     text-decoration: none;
 }
+
+.text-bold-21-frank-ruhl{
+    font-family   : 'Frank Ruhl Libre', serif;
+    font-size     : 21px;
+    line-height   : 1.2em;
+    font-weight   : 700;
+}
 .title {
     font-family   : 'Frank Ruhl Libre', serif;
     font-size     : 20px;
     line-height   : 1.2em;
     margin-bottom : 15px;
     font-weight   : 700;
+}
+
+.title-grand-primary{
+    font-size   : 6rem;
+    color       : $blueLight !important;
+    font-family : "Frank Ruhl Libre", serif;
+    font-weight : bold;
+}
+
+.title-grand{
+    font-size   : 6rem;
+    color       : $blue-3 !important;
+    font-family : "Frank Ruhl Libre", serif;
+    font-weight : bold;
+}
+
+.text-underline{
+    text-decoration: underline;
 }
 
 .subtitle {
@@ -409,6 +427,24 @@
     margin-bottom : 15px;
     font-weight   : 700;
     color         : $blue;
+}
+
+//shadow
+.shadow{
+    background    : #FFFFFF;
+    box-shadow    : 0 4px 30px rgba(0, 105, 180, 0.3);
+    border-radius : 20px;
+}
+
+//underline
+.underline{
+    display             : inline-block;
+    width               : 92px;
+    background-image    : url(/public/img/line.svg);
+    background-repeat   : no-repeat;
+    background-position : center;
+    height              : 10px;
+    margin              : auto;
 }
 
 //vertical-align
